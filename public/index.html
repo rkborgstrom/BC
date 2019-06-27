@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="no">
+
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Universal Parallax | Demo</title>
+	<title>B.Borg Construction LLC</title>
 	<link rel="stylesheet" type="text/css" href="css/demo.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700" rel="stylesheet">
-	<style>
-	</style>
 </head>
 
 <body>
@@ -15,7 +14,7 @@
 	<section class="container container--full">
 		<div class="content" style="position:relative;">
 			<!-- <div class="arrow" id="arrow"><img src="img/gc1.JPG"></div> -->
-			<h1>Borg Construction</h1>
+			<h1>B.Borg Construction LLC</h1>
 			<p>General Contracting - Residential & Commercial Renovations</p>
 		</div>
 		<div class="parallax bg1"></div>
@@ -29,15 +28,15 @@
 				Displays 100% of BG regardless
 			</p>
 		</div>
-		<div class="parallax" data-parallax-image="img/chicago.jpg"></div>
+		<div class="parallax" data-parallax-image="img/bc2.jpg"></div>
 	</section>
 
 	<section class="container container--big">
 		<div class="content">
 			<p>
-				<strong>Container going off screen?</strong>
+				<strong>General Contracting</strong>
 				<br>
-				No sweat
+
 			</p>
 		</div>
 		<div class="parallax" id="bg3"></div>
@@ -45,27 +44,89 @@
 
 	<section class="container container--full">
 		<div class="content">
-			<h2>Universal Parallax</h2>
+			<h2>Inquires</h2>
 			<p>
-				Automatically scales to the height of your container
-				<span class="hide-on-mobile"><br></span>
-				Check out <a href="https://www.npmjs.com/package/universal-parallax" target="_blank">npm</a> or <a href="https://github.com/marrio-h/universal-parallax" target="_blank">github</a> for docs and download
+				<form class="my-form">
+					<p>
+						<label for="name">Name</label>
+						<span class="wrap">
+							<input type="text" name="your-name" value="" size="40" class="form-control text"
+								id="name" />
+						</span>
+					</p>
+					<p>
+						<label for="e-mail">E-mail</label>
+						<span class="wrap">
+							<input type="text" name="your-e-mail" value="" size="40" class="form-control text"
+								id="e-mail" />
+						</span>
+					</p>
+
+					<p>
+						<label for="message">Your message:</label>
+						<br>
+						<span class="wrap">
+							<textarea name="your-message" cols="40" rows="10" class="textarea" id="message"
+								aria-invalid="false"></textarea>
+						</span>
+					</p>
+					<p class="cta-holder">
+						<input type="submit" value="Submit" class="cta-button" />
+					</p>
+				</form>
+				Check out <a href="https://www.npmjs.com/package/universal-parallax" target="_blank">Some</a> text <a
+					href="https://github.com/marrio-h/universal-parallax" target="_blank">some</a> text
 			</p>
 			<p>
 				Photo credits in order of appearance from <a href="https://unsplash.com/" target="_blank">unsplash</a>
-				<span class="show-on-mobile--inline">:</span>
-				<span class="hide-on-mobile"><br></span>
-				<a class="a--no-weight" href="https://unsplash.com/@dnevozhai" target="_blank">Denys Nevozhai</a>,
-				<a class="a--no-weight" href="https://unsplash.com/@rohittandon" target="_blank">Rohit Tandon</a>,
-				<span class="hide-on-mobile"><br></span>
-				<a class="a--no-weight" href="https://unsplash.com/@jim_dons" target="_blank">James Donaldson</a>,
-				<a class="a--no-weight" href="https://unsplash.com/@jampatcon" target="_blank">James Connolly</a>
+				<a class="a--no-weight" href="https://unsplash.com/@dnevozhai" target="_blank">Bret Borgstrom</a>,
+
 			</p>
-			<p class="p--credits">Find me on git <a href="https://github.com/marrio-h" target="_blank">@marrio-h</a></p>
+			<p class="p--credits">2019 <a href="https://github.com/marrio-h" target="_blank">All rights reverved</a></p>
 
 		</div>
 		<div class="parallax" data-parallax-image="img/c1.jpg"></div>
 	</section>
+
+
+
+	<div class="foot">
+		<div id="map"></div>
+		<script>
+			new universalParallax().init();
+		</script>
+		<script src="node_modules/universal-parallax/dist/universal-parallax.min.js"></script>
+		<script>
+			var map;
+
+			function initMap() {
+				var myLatLng = {
+					lat: 41.9255,
+					lng: -87.6488
+				};
+
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom: 8,
+					center: myLatLng
+				});
+
+				var marker = new google.maps.Marker({
+					position: myLatLng,
+					map: map,
+					title: 'Hello World!'
+				});
+			}
+		</script>
+		<script
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUngzv6LeidivGsMjBw03_5f1DNFkA65s&callback=initMap"
+			async defer></script>
+
+	</div>
+
+
+
+
+
 
 	<script src="../dist/universal-parallax.min.js"></script>
 	<script src="js/demo.min.js"></script>
@@ -76,4 +137,5 @@
 	</script>
 
 </body>
+
 </html>

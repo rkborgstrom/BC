@@ -145,11 +145,11 @@ a.a--no-weight {
 }
 
 .bg1 {
-    background-image: url("../img/bc2.jpg")
+    background-image: url("../img/412030.jpg")
 }
 
 #bg3 {
-    background-image: url("../img/bc1.jpg")
+    background-image: url("../img/gc1.JPG")
 }
 
 .show-on-mobile--inline {
@@ -227,3 +227,16 @@ a.a--no-weight {
         display: inline
     }
 }
+
+.foot {
+    height: 500px;
+    background-color: #202020;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  #map {
+    height: 100%;
+    width: 100%;
+  }
+  
