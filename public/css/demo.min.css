@@ -241,7 +241,7 @@ a.a--no-weight {
   }
   
 
-  @import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Playfair+Display");
+  /* @import url("https://fonts.googleapis.com/css?family=Open+Sans:700|Playfair+Display");
 * {
   user-select: none;
   transition: .3s ease;
@@ -349,4 +349,4 @@ a.btn:active {
 
 .space {
   height: 4vh;
-}
+} */
