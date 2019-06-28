@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'Source Sans Pro', helvetica, arial;
+    font-family: helvetica;
     font-size: 18px;
     font-weight: 300
 }
@@ -367,7 +367,6 @@ ul li:nth-child(4) a:before {
 .card .card_title {
     text-align: center;
     border-radius: 0px 0px 40px 40px;
-    font-family: sans-serif;
     font-weight: bold;
     font-size: 30px;
     margin-top: -80px;
@@ -380,6 +379,10 @@ ul li:nth-child(4) a:before {
         -5px -5px 30px 15px rgba(0, 0, 0, 0.22);
 }
 
+#learn {
+    font-size: 2em;
+    font-family: helvetica;
+}
 .title-white {
     color: white;
 }
