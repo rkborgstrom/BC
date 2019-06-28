@@ -244,6 +244,7 @@ a.a--no-weight {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     padding-right: 40px;
  
   }
@@ -253,6 +254,7 @@ a.a--no-weight {
   }
   
   ul li a {
+      
     width: 80px;
     height: 80px;
     background-color: #fff;
