@@ -6,18 +6,15 @@
 
 body {
     visibility: hidden;
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 300;
   }
 
 body,
 html {
     height: 100%;
     width: 100%
-}
-
-body {
-    font-family: helvetica;
-    font-size: 18px;
-    font-weight: 300
 }
 
 body,
@@ -327,10 +324,6 @@ ul li:nth-child(4) a:before {
     padding-bottom: 20px !important;
 }
 
-#tw {
-    padding-bottom: 20px !important;
-}
-
 #ln {
     padding-bottom: 20px !important;
 }
@@ -365,7 +358,6 @@ ul li:nth-child(4) a:before {
     width: inherit;
     height: inherit;
     border-radius: 40px;
-    object-fit: cover;
 }
 
 .card .card_title {
