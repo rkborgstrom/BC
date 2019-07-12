@@ -28,11 +28,6 @@
 				<a href="#">
 					<i class="fab fa-facebook-f icon"></i> </a>
 			</li>
-			<li id="tw">
-				<a href="#"><i class="fab fa-twitter icon"></i></a>
-			</li>
-
-
 			<li id="ln">
 				<a href="#"><i class="fab fa-linkedin-in icon"></i></a></li>
 			<li id="inst">
@@ -69,43 +64,43 @@
 
 	<section class="container container--big">
 		<div class="content">
-			
-				<strong id="learn">Learn More</strong>
-				<hr>
 
-				<div class="cards-list">
+			<strong id="learn">Learn More</strong>
+			<hr>
 
-					<div class="card 1" id="c1">
-						<div class="card_image">
-							<img src="../img/bc1.jpg" />
-						</div>
-						<div class="card_title title-white">
-							<p>General Contracting</p><br>
-						</div>
+			<div class="cards-list">
+
+				<div class="card 1" id="c1">
+					<div class="card_image">
+						<img src="../img/bc1.jpg" />
 					</div>
-
-					<div class="card 2" id="c2">
-						<div class="card_image">
-							<img src="../img/r1.JPG" />
-						</div>
-						<div class="card_title title-white">
-							<p>Residential</p>
-						</div>
+					<div class="card_title title-white">
+						<p>General Contracting</p><br>
 					</div>
-
-
-					<div class="card 3" id="c3">
-						<div class="card_image">
-							<img src="../img/c1.jpg" />
-						</div>
-						<div class="card_title title-white">
-							<p>Commercial</p>
-						</div>
-					</div>
-
 				</div>
-				
-		
+
+				<div class="card 2" id="c2">
+					<div class="card_image">
+						<img src="../img/r1.JPG" />
+					</div>
+					<div class="card_title title-white">
+						<p>Residential</p>
+					</div>
+				</div>
+
+
+				<div class="card 3" id="c3">
+					<div class="card_image">
+						<img src="../img/c1.jpg" />
+					</div>
+					<div class="card_title title-white">
+						<p>Commercial</p>
+					</div>
+				</div>
+
+			</div>
+
+
 		</div>
 		<section class="blank"></section>
 		<div class="parallax" id="bg3"></div>
@@ -165,38 +160,31 @@
 		<div id="map"></div>
 		<script>
 			var map;
-			
+
 			function initMap() {
 				var myLatLng = {
 					lat: 41.9255,
 					lng: -87.6488
 				};
-				
+
 				var map = new google.maps.Map(document.getElementById('map'), {
 					zoom: 8,
 					center: myLatLng
 				});
-				
+
 				var marker = new google.maps.Marker({
 					position: myLatLng,
 					map: map,
 					title: 'Hello World!'
 				});
 			}
-			</script>
+		</script>
 		<script
-		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUngzv6LeidivGsMjBw03_5f1DNFkA65s&callback=initMap"
-		async defer></script>
-		
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUngzv6LeidivGsMjBw03_5f1DNFkA65s&callback=initMap"
+			async defer></script>
+
 	</div>
 	<script src="node_modules/universal-parallax/dist/universal-parallax.min.js"></script>
-
-
-
-
-
-
-
 	<script src="../dist/universal-parallax.min.js"></script>
 	<script src="js/demo.min.js"></script>
 	<script>
