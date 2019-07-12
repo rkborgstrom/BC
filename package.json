@@ -1,5 +1,5 @@
 {
-  "name": "Find-Your-Friends",
+  "name": "find-your-friends",
   "version": "1.0.0",
   "description": "An app that shows what mountain your friends are going to for the weekend.",
   "main": "app.js",
@@ -27,5 +27,6 @@
     "morgan": "^1.9.1",
     "pg": "^7.6.0",
     "universal-parallax": "^1.3.2"
-  }
+  },
+  "devDependencies": {}
 }

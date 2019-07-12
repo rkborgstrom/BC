@@ -94,9 +94,10 @@ a.a--no-weight {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     margin: 0;
-    padding: 15px;
+    padding: 30px;
     position: relative;
-    width: 100%
+    width: 100%;
+    color: white;
 }
 
 .container--big {
@@ -120,6 +121,9 @@ a.a--no-weight {
     text-align: center
 }
 
+.blank {
+    height: 30vh;
+}
 .parallax__container {
     clip: rect(0, auto, auto, 0);
     height: 100%;
