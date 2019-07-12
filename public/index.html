@@ -164,35 +164,33 @@
 	<div class="foot">
 		<div id="map"></div>
 		<script>
-			new universalParallax().init();
-		</script>
-		<script src="node_modules/universal-parallax/dist/universal-parallax.min.js"></script>
-		<script>
 			var map;
-
+			
 			function initMap() {
 				var myLatLng = {
 					lat: 41.9255,
 					lng: -87.6488
 				};
-
+				
 				var map = new google.maps.Map(document.getElementById('map'), {
 					zoom: 8,
 					center: myLatLng
 				});
-
+				
 				var marker = new google.maps.Marker({
 					position: myLatLng,
 					map: map,
 					title: 'Hello World!'
 				});
 			}
-		</script>
+			</script>
 		<script
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUngzv6LeidivGsMjBw03_5f1DNFkA65s&callback=initMap"
-			async defer></script>
-
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUngzv6LeidivGsMjBw03_5f1DNFkA65s&callback=initMap"
+		async defer></script>
+		
 	</div>
+	<script src="node_modules/universal-parallax/dist/universal-parallax.min.js"></script>
+
 
 
 
